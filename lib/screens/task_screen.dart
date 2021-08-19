@@ -57,7 +57,6 @@ class _TaskScreenState extends State<TaskScreen> {
                   onPressed: () {
                     if (_toDoItemTitleEditingController.text.isNotEmpty) {
                       widget.onAddItem(_toDoItemTitleEditingController.text);
-
                       _toDoItemTitleEditingController.clear();
                     }
                   },
